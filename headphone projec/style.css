@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #aed3df67;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+nav {
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 10%;
+    font-weight: 600;
+}
+
+nav ul li img {
+    width: 100px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftmain {
+    width: 100%;
+    height: 100%;
+}
+
+.leftmain h1 {
+    font-size: 60px;
+    margin: 5% 0;
+    padding: 10%;
+}
+
+.leftmain p {
+    margin: 5% 0;
+    padding: 10%;
+    font-size: 20px;
+}
+
+.leftmain button {
+    margin: 15px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+}
+
+.leftmain button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.rightmain {
+    width: 60%;
+    padding: 7%;
+}
+
+.rightmain div img {
+    width: 30%;
+}
+
+.rightmain div img:first-child {
+    margin-right: 20px;
+}
+
+.rightmain div {
+    margin-bottom: 20px;
+}
+
+.rightmain>img {
+    width: 64;
+}
